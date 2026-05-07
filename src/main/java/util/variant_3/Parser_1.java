@@ -26,7 +26,7 @@ public class Parser_1 {
 
     // удаление всех пробелов между знаками
     public String deleteSpaces(String expression) {
-        expression = expression.replace("", " ");
+        expression = expression.replace(" ", "");
         return expression;
     }
 
