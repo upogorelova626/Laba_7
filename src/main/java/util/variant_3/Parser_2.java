@@ -141,7 +141,7 @@ public class Parser_2 {
     }
 
     private boolean isOperationSign(char currentChar) {
-        return currentChar == '+' || currentChar == '-' || currentChar == '*' || currentChar == '/' ||
+        return currentChar == '+' || currentChar == '~' || currentChar == '*' || currentChar == '/' ||
                 currentChar == '%';
     }
 
